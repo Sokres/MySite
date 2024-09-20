@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    height: var(--header-nav);
+    justify-content: end;
+
+}
+
+.headerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.headerLink {
+    margin-right: 10px;
+}

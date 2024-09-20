@@ -1,0 +1,11 @@
+.LinkApp {
+    color: var(--color-primary-text)
+}
+
+.primary {
+    color: var(--color-primary-text);
+}
+
+.secondary {
+    color: var(--color-secondary-text);
+}

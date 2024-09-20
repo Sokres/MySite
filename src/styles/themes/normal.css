@@ -1,6 +1,0 @@
-.app.light {
-    --color-bg: linear-gradient(99deg, #def6ff 0%, rgba(120, 218, 255, 0.84) 100%);
-    --color-text: #1b1b1b;
-    --color-alt: #85e2dc;
-    --color-bg-alt: linear-gradient(96deg, #8fe0ff 0%, #d93dff 100%);
-}

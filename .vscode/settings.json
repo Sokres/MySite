@@ -1,0 +1,25 @@
+{  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": "explicit",
+  "source.fixAll.stylelint": "explicit"
+},
+
+"eslint.validate": ["javascript"],
+
+"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+
+
+
+
+
+
+    "i18n-ally.localesPaths": [
+        "public/locales"
+    ],
+    "i18n-ally.keystyle": "flat",
+"i18n-ally.namespace": true,
+"i18n-ally.pathMatcher": "{locale}/{namespace}.json",
+
+
+}

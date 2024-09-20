@@ -1,6 +1,0 @@
-.app.dark {
-    --color-bg: linear-gradient(99deg, #1d617b 0%, rgba(70, 146, 174, 0.84) 100%);
-    --color-text: #e7e7e7;
-    --color-alt: #d644ff;
-    --color-bg-alt: linear-gradient(96deg, #8fe0ff 0%, #d93dff 100%);
-}
