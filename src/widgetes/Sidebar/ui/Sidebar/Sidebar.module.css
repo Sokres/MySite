@@ -1,4 +1,4 @@
-.Sidebar {
+.sidebar {
     position: relative;
     height: 100lvh;
     width: 300px;
@@ -8,6 +8,7 @@
     .lang {
         margin-left: 20px;
         color: var(--color-primary-text);
+        margin-right: 30px;
     }
 }
 
@@ -21,8 +22,4 @@
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-.lang {
-    margin-right: 30px;
 }

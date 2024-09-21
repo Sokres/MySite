@@ -13,7 +13,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
         getShow((open) => !open);
     };
     return (
-        <div className={classNames(cl.Sidebar, { [cl.show]: show }, [className])}>
+        <div className={classNames(cl.sidebar, { [cl.show]: show }, [className])}>
             <button onClick={onToggle}>Show</button>
             <div className={cl.svitchers}>
                 <BtnTheme />
