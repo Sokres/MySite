@@ -1,5 +1,5 @@
 import './index.css';
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 import { useThem } from './Providers/ThemProvider';
 import { classNames } from 'shared/lib/classNaame/ClassName';
 import { AppRouter } from './Providers/router';
@@ -8,6 +8,11 @@ import { Sidebar } from 'widgetes/Sidebar/ui';
 
 const App = () => {
     const { theme } = useThem();
+    useEffect(() => {
+        if(Math.random() < 0.5){
+            throw new Error()
+        }
+    },[])
     return (
         <div className={classNames('app', { hovered: true }, [theme])}>
             <Suspense fallback="loading">
