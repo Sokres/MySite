@@ -1,4 +1,5 @@
-import { classNames } from "./ClassName";
+import { classNames } from "shared/lib/classNaame/ClassName";
+
 
 describe('ClassName', () => {
     test('onli fist classs', () =>{

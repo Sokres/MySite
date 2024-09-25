@@ -1,6 +1,8 @@
 {
   "About": "About",
   "Lang": "Lang",
+  "error_bound": "error_bound",
   "glavnaya": "glavnaya",
-  "not_found": "not_found"
+  "not_found": "not_found",
+  "reload_page": "reload_page"
 }

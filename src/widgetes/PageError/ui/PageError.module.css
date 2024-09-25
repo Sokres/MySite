@@ -1,0 +1,25 @@
+.PageError {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+
+}
+
+.btnReload {
+    margin: 0;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f042f9;
+    font-size: var(--font-size-normal);
+    margin-top: 20px;
+    color: var(--color-primary-text);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: #c230c9;
+    }
+
+}
