@@ -6,7 +6,6 @@
 import path from 'path';
 
 export default {
-
     clearMocks: true,
     testEnvironment: 'jsdom',
     coveragePathIgnorePatterns: [
@@ -27,7 +26,7 @@ export default {
         '<rootDir>src',
     ],
     testMatch: [
-        '<rootDir>/src/**/*(*.)@(spec|test).[tj]s?(x)',
+        '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
