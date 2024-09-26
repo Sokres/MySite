@@ -7,11 +7,10 @@ interface SwithcerLangProps {
 	className?: string;
 }
 export const SwithcerLang = ({ className }: SwithcerLangProps) => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('translation');
     const toggle = () => {
         i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
     };
-    console.log(className);
     return (
         <Button
             onClick={toggle}
