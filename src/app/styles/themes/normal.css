@@ -1,4 +1,4 @@
-.app.light {
+:root {
     --color-bg: linear-gradient(99deg, #def6ff 0%, rgb(120 218 255 / 84%) 100%);
     --color-secondary-text: #e7e7e7;
     --color-secondary-alt: #d644ff;
