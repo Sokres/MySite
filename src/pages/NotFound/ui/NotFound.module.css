@@ -1,5 +1,5 @@
 .NotFound {
-    height: calc(100vh - var(--header-nav)));
+    height: calc(100vh - var(--header-nav));
     display: flex;
     justify-content: center;
     align-items: center;

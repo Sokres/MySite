@@ -4,7 +4,7 @@ import { useThem } from './Providers/ThemProvider';
 import { classNames } from 'shared/lib/classNaame/ClassName';
 import { AppRouter } from './Providers/router';
 import { NavBar } from 'widgetes/NavBar';
-import { Sidebar } from 'widgetes/Sidebar/ui';
+import { Sidebar } from 'widgetes/Sidebar';
 
 const App = () => {
     const { theme } = useThem();

@@ -1,23 +1,20 @@
-import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
-import AboutPages from './AboutPages';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
 import { Theme } from 'app/Providers/ThemProvider';
-
-
+import AboutPages from './AboutPages';
 
 export default {
-    title: 'pages/AboutPage',
+    title: 'pages/AboutPages',
     component: AboutPages,
     argTypes: {
         backgroundColor: { control: 'color' },
     },
 } as ComponentMeta<typeof AboutPages>;
 
-const Template: ComponentStory<typeof AboutPages> = (args) => <AboutPages {...args} />;
+const Template: ComponentStory<typeof AboutPages> = (args) => <AboutPages />;
 
-export const Normal = Template.bind({});
-Normal.args = {};
+export const Light = Template.bind({});
+Light.args = {};
 
 export const Dark = Template.bind({});
 Dark.args = {};
