@@ -1,18 +1,17 @@
-import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Sidebar } from './Sidebar';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
 import { Theme } from 'app/Providers/ThemProvider';
+import { SwithcerLang } from './SwithcerLang';
 
 export default {
-    title: 'widget/Sidebar',
-    component: Sidebar,
+    title: 'widget/SwithcerLang',
+    component: SwithcerLang,
     argTypes: {
         backgroundColor: { control: 'color' },
     },
-} as ComponentMeta<typeof Sidebar>;
+} as ComponentMeta<typeof SwithcerLang>;
 
-const Template: ComponentStory<typeof Sidebar> = (args) => <Sidebar { ...args } />;
+const Template: ComponentStory<typeof SwithcerLang> = (args) => <SwithcerLang {...args} />;
 
 export const Light = Template.bind({});
 Light.args = {};
