@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { classNames } from 'shared/lib/classNaame/ClassName';
-import cl from './LinkApp.module.css';
 import { Link, LinkProps } from 'react-router-dom';
+import cl from './LinkApp.module.css';
 
 export enum LinkAppThtme {
 	PRIMARY = 'primary',

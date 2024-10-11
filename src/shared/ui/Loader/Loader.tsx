@@ -5,10 +5,13 @@ import cl from './Loader.module.css';
 interface LoaderProps {
 className?: string;
 }
-export const Loader = ({ className }: LoaderProps) => {
-    return (
-        <div className={classNames(cl.Loader, {}, [className])}>
-            <div className={cl['lds-ring']}><div></div><div></div><div></div><div></div></div>
+export const Loader = ({ className }: LoaderProps) => (
+    <div className={classNames(cl.Loader, {}, [className])}>
+        <div className={cl['lds-ring']}>
+            <div />
+            <div />
+            <div />
+            <div />
         </div>
-    );
-};
+    </div>
+);

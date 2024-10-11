@@ -1,10 +1,10 @@
 import React from 'react';
 import { classNames } from 'shared/lib/classNaame/ClassName';
-import cl from './BtnTheme.module.css';
 import { Theme, useThem } from 'app/Providers/ThemProvider';
 import IconLight from 'shared/assets/icons/icon-light.svg';
 import IconDark from 'shared/assets/icons/icon-dark.svg';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
+import cl from './BtnTheme.module.css';
 
 interface BtnThemeProps {
 	className?: string;

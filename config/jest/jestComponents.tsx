@@ -1,11 +1,7 @@
 import React from 'react';
 
-const jestComponents = () => {
-    return (
-        <svg>
-            
-        </svg>
-    );
-};
+const jestComponents = () => (
+    <svg />
+);
 
 export default jestComponents;
