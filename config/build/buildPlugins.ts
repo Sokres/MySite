@@ -27,7 +27,5 @@ export function buildPlugins({
             openAnalyzer: false
         }))
     }
-    return [
-
-    ];
+    return plugins;
 }
