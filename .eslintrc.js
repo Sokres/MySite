@@ -50,7 +50,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['**/src/**/*.test.{ts,tsx}', '/.eslintrc.js'],
+            files: ['**/src/**/*.test.{ts,tsx}', '.eslintrc.js'],
             rules: {
                 'i18next/no-literal-string': 'off',
             },
