@@ -5,8 +5,9 @@ import cl from './SwithcerLang.module.css';
 
 interface SwithcerLangProps {
 	className?: string;
+    short?: boolean;
 }
-export const SwithcerLang = ({ className }: SwithcerLangProps) => {
+export const SwithcerLang = ({ className, short }: SwithcerLangProps) => {
     const { t, i18n } = useTranslation('translation');
     const toggle = () => {
         i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru');
@@ -17,7 +18,7 @@ export const SwithcerLang = ({ className }: SwithcerLangProps) => {
             theme={ButtonTheme.CLEAR}
             className={classNames(cl.SwithcerLang, {}, [className])}
         >
-            {t('Lang')}
+            {t(short ? 'LangMin' : 'Lang')}
         </Button>
     );
 };

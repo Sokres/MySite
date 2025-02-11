@@ -16,3 +16,13 @@
     color: var(--color-secondary-alt);
     background: none;
 }
+
+.background{
+    border: none;
+    background-color: var(--color-primary-alt);
+}
+
+.background_inverted{
+    border: none;
+    background-color: var(--color-primary-alt);
+}

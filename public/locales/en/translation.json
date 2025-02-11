@@ -1,10 +1,11 @@
 {
-  "Пример перевода": "tets translate",
-  "Переключатель": "Toggle Lang",
-  "Главная": "Home",
-  "Lang": "English",
-  "glavnaya": "Home",
-  "not_found": "Page not found",
-  "error_bound": "An error has occurred",
-  "reload_page": "Refresh page"
+	"Пример перевода": "tets translate",
+	"Переключатель": "Toggle Lang",
+	"Главная": "Home",
+	"Lang": "English",
+	"glavnaya": "Home",
+	"not_found": "Page not found",
+	"error_bound": "An error has occurred",
+	"reload_page": "Refresh page",
+	"LangMin": "En"
 }
